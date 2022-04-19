@@ -1,0 +1,48 @@
+#include <stdio.h>
+
+int main() {
+
+int choice = 0;
+
+double earthWeight = 0;
+
+printf("Choose a planet to calculate how much your weight will be in it\n");
+
+printf("1)Mercury\n2)Venus\n3)Mars\n4)Jupiter\n5)Saturn\n6)Uranus\n7)Neptune\n");
+
+scanf("%d", &choice);
+
+printf("Enter your weight on earth in Kg : ");
+
+scanf("%lf", &earthWeight);
+
+switch(choice)
+{
+  case 1 : 
+     printf("Your Weight in planet Mercury is %lf Kg\n",earthWeight * 0.38);
+     break;
+  case 2:
+     printf("Your Weight in Planet Venus %lf Kg\n",earthWeight * 0.91);
+     break;
+  case 3:
+     printf("Your Weight in Planet Mars %lf\n",earthWeight * 0.38);
+     break;
+  case 4:
+     printf("Your Weight in Planet Jupiter %lf\n",earthWeight * 2.34);
+     break;
+  case 5:
+     printf("Your Weight in Planet Saturn %lf\n",earthWeight * 1.06);
+     break;
+  case 6:
+     printf("Your Weight in Planet Uranus %lf\n",earthWeight * 0.92);
+     break;
+  case 7:
+     printf("Your Weight in Planet Neptune %lf\n",earthWeight * 1.19);
+     break;
+  default :
+     printf("Your Weight in Planet Earth %lf\n", earthWeight);
+     break;
+  
+}
+
+}
