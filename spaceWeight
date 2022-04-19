@@ -25,22 +25,22 @@ switch(choice)
      printf("Your Weight in Planet Venus %lf Kg\n",earthWeight * 0.91);
      break;
   case 3:
-     printf("Your Weight in Planet Mars %lf\n",earthWeight * 0.38);
+     printf("Your Weight in Planet Mars %lf Kg\n",earthWeight * 0.38);
      break;
   case 4:
-     printf("Your Weight in Planet Jupiter %lf\n",earthWeight * 2.34);
+     printf("Your Weight in Planet Jupiter %lf Kg\n",earthWeight * 2.34);
      break;
   case 5:
-     printf("Your Weight in Planet Saturn %lf\n",earthWeight * 1.06);
+     printf("Your Weight in Planet Saturn %lf Kg\n",earthWeight * 1.06);
      break;
   case 6:
-     printf("Your Weight in Planet Uranus %lf\n",earthWeight * 0.92);
+     printf("Your Weight in Planet Uranus %lf Kg\n",earthWeight * 0.92);
      break;
   case 7:
-     printf("Your Weight in Planet Neptune %lf\n",earthWeight * 1.19);
+     printf("Your Weight in Planet Neptune %lf Kg\n",earthWeight * 1.19);
      break;
   default :
-     printf("Your Weight in Planet Earth %lf\n", earthWeight);
+     printf("Your Weight in Planet Earth %lf Kg\n", earthWeight);
      break;
   
 }
